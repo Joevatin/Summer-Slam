@@ -28,8 +28,8 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Tournament Details</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Sign Up</a></li>
                     </ul>
                 </div>
             </div>
@@ -38,9 +38,9 @@
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
+                <img class="masthead-avatar mb-5" src="assets/img/Ball.png" alt="..." />
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Start Bootstrap</h1>
+                <h1 class="masthead-heading text-uppercase mb-0">Summer Slam</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -48,7 +48,7 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
+                <!--p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p-->
             </div>
         </header>
         <!-- Portfolio Section-->
@@ -125,7 +125,7 @@
         <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white">Tournament Details</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -134,14 +134,55 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                    <div class="col-lg-4 ms-auto">
+                        <p class="lead">
+                        <strong>Standard basketball rules will apply, with the following notes:</strong>
+                        </p>
+                        <ul>
+                        <li>There will be zero tolerance for bad language, confrontations (both verbal and physical) and arguing with or disrespecting the referees calls.</li>
+                        <li>Any player can be kicked out of the tournament, without compensation at the referees or tournament directors discretion. Each player will get 1 warning at best for any infraction before they will be asked to leave.</li>
+                        <li>Each team will play a minimum of 3 season games.</li>
+                        <li>All teams will make the playoffs, which will begin single elimination rounds.</li>
+                        <li>All teams must have a minimum of 7 players and a maximum of 10 players.</li>
+                        <li>Each game will be a timed 20 minute game.</li>
+                        <li>Each team will have one (1) 30 sec timeout per game during the season games. During the championship game each team will have two (2) timeouts.</li>
+                        </ul>
+
+                        <p class="lead"><strong>Scoring:</strong></p>
+                        <ul>
+                        <li>1 point for shots inside the 3-point arc.</li>
+                        <li>2 points for shots outside the 3-point arc.</li>
+                        </ul>
+
+                        <p class="lead"><strong>Fouls:</strong></p>
+                        <ul>
+                        <li>Each player will be allowed 4 fouls per game. Upon reaching 4 fouls the player will be eliminated from the current game.</li>
+                        <li>There are no free throws.</li>
+                        <li>If you are fouled while attempting a shot and you <b><u>make</u></b> the shot you will be awarded the point but there will be no free throw and a foul will be counted against the fouler.</li>
+                        <li>If you are fouled while attempting a shot and you <b><u>miss</u></b> the shot you will be awarded possession of the ball and a foul will be counted against the fouler.</li>
+                        <li>Fouls during play result in possession at the top of the key and foul counted against fouler.</li>
+                        </ul>
+
+                        <p class="lead"><strong>Out of Bounds:</strong></p>
+                        <ul>
+                        <li>The ball gets checked in wherever it went out of bounds.</li>
+                        </ul>
+
+                        <p class="lead"><strong>Delay of Game:</strong></p>
+                        <ul>
+                        <li>If a player is injured to the point of stopping play then the player must substitute out of play.</li>
+                        <li>Players are encouraged not to intentionally hold the ball to waste the Game Clock.</li>
+                        <li>Backcourt violations result in a change of possession.</li>
+                        </ul>
+                    </div>
+                    </div>
+
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+                    <a class="btn btn-xl btn-outline-light" href="/assets/img/Rules.jpg" download>
                         <i class="fas fa-download me-2"></i>
-                        Free Download!
+                        Download Rules
                     </a>
                 </div>
             </div>
@@ -150,7 +191,7 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Sign Up</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -190,8 +231,8 @@
                             <!-- Message input-->
                             <div class="form-floating mb-3">
                                 <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                                <label for="message">Team Name</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A team name is required.</div>
                             </div>
                             <!-- Submit success message-->
                             <!---->
@@ -237,15 +278,6 @@
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                    </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
                     </div>
                 </div>
             </div>
@@ -456,5 +488,52 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <!-- Rules Modal Overlay -->
+        <div id="rulesModal" style="
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(0,0,0,0.85);
+            color: white;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        ">
+            <div style="
+                background: #222;
+                padding: 2rem;
+                border-radius: 10px;
+                max-width: 600px;
+                width: 90%;
+                text-align: center;
+            ">
+                <h2>Rules</h2>
+                <p>Please read and accept the following rules to continue:</p>
+                <ul style="text-align: left; margin-top: 1rem;">
+                    <li>No cheating or exploiting.</li>
+                    <li>Respect all players.</li>
+                    <li>Follow all event guidelines.</li>
+                </ul>
+                <button onclick="acceptRules()" style="
+                    margin-top: 1.5rem;
+                    padding: 0.5rem 1.5rem;
+                    font-size: 1rem;
+                    border: none;
+                    border-radius: 5px;
+                    background-color: #28a745;
+                    color: white;
+                    cursor: pointer;
+                ">I Accept</button>
+            </div>
+        </div>
+
+        <script>
+            function acceptRules() {
+                document.getElementById('rulesModal').style.display = 'none';
+            }
+        </script>
     </body>
 </html>
